@@ -37,6 +37,7 @@ def write_groups(filename, groups):
             print(file=f)
 
 import argparse
+from os import path
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Score words from a list to help design a thematic variant for "Brave the Book", the bookmark game.')
@@ -44,14 +45,23 @@ def parse_args():
         default='lettervalues_english.txt',
         help='input file listing one letter and one lettervalue per line')
     parser.add_argument('-w', '--words',
-        default='mythical_creatures_english.txt',
+        default='creatures_english.txt',
         help='input file listing all the words')
+    parser.add_argument('-d', '--directory',
+        default='resources',
+        help='directory where to look for the input files')
     parser.add_argument('-s', '--separator',
-        help='ignore everything on the left of this character or string in the words file')
+        help='ignore everything on the left of this character or string in the words file. useful if the words file contains definitions.')
     parser.add_argument('-o', '--outfile',
-        default='sorted_creatures_english.txt',
+        default='creatures_english.txt',
         help='output file to write the results to')
+    parser.add_argument('--output-dir',
+        default='results',
+        help='directory where to write for the output files')
     args = parser.parse_args()
+    args.lettervalues = path.join(args.directory, args.lettervalues)
+    args.words = path.join(args.directory, args.words)
+    args.outfile = path.join(args.output_dir, args.outfile)
     return args
     # parser.add_argument('-c', '--clean', action='store_true',
     #     help='if this option is specified, do not score the words; simply rewrite a clean list of words, removing empty lines and comments from the words file')
