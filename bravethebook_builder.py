@@ -103,7 +103,8 @@ def main():
     print(groupsfile)
     write_groups(groupsfile, groups)
     print()
-    print('WRITTEN WORDS BY SCORE TO FILE: ', groupsfile)
+    print('WRITTEN WORDS BY SCORE TO FILE: ')
+    print(groupsfile)
 
 if __name__ == '__main__':
     main()

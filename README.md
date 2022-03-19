@@ -1,5 +1,7 @@
 # bravethebook
-Small tool to help design thematic variants and translations for "Brave the book", the bookmark game
+Small tool to help design thematic variants and translations for "Brave the book", the bookmark game.
+
+For more information on the game, or to download the actual bookmark: https://boardgamegeek.com/thread/2775582/wip-components-available-brave-book-2022-hand-gdc
 
 ## Install
 Make sure you have python3 installed, then run the following commands from the command file:
