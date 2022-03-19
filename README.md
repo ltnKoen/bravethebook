@@ -8,11 +8,11 @@ Make sure you have python3 installed, then run the following commands from the c
     cd bravethebook
 
 ## Examples
-    python3 bravethebook_builder.py -v lettervalues_english.txt -w creatures_english.txt -o creatures_english.txt
+    python3 bravethebook_builder.py -v scrabble_english.txt -w creatures_english.txt -o creatures_english.txt
 
-Read files `resources/lettervalues_english.txt` and `resources/creatures_english.txt`, calculate a score for every creature in the list, and write the results to `results/creatures_english.txt`.
+Read files `resources/scrabble_english.txt` and `resources/creatures_english.txt`, calculate a score for every creature in the list, and write the results to `results/creatures_english.txt`.
 
-    python3 bravethebook_builder.py -s " - " -v lettervalues_english.txt -w creatures_english.txt -o creatures_english.txt
+    python3 bravethebook_builder.py -s " - " -v scrabble_english.txt -w creatures_english.txt -o creatures_english.txt
 Use `" - "` as a separator to ignore definitions: anything following `" - "` on a line in the list of words will be ignored.
 
 ## Usage
@@ -33,6 +33,7 @@ Use `" - "` as a separator to ignore definitions: anything following `" - "` on 
                             input file listing all the words
       -d DIRECTORY, --directory DIRECTORY
                             directory where to look for the input files
+                            default: resources/
        -s SEPARATOR, --separator SEPARATOR
                             ignore everything on the left of this character or string
                             in the words file. useful if the words file contains
@@ -41,3 +42,4 @@ Use `" - "` as a separator to ignore definitions: anything following `" - "` on 
                             output file to write the results to
       --output-dir OUTPUT_DIR
                             directory where to write for the output files
+                            default: resources/

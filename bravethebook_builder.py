@@ -42,14 +42,14 @@ from os import path
 def parse_args():
     parser = argparse.ArgumentParser(description='Score words from a list to help design a thematic variant for "Brave the Book", the bookmark game.')
     parser.add_argument('-v', '--lettervalues',
-        default='lettervalues_english.txt',
+        default='scrabble_english.txt',
         help='input file listing one letter and one integer lettervalue per line; frequent letters such as \'e\' should have low value')
     parser.add_argument('-w', '--words',
         default='creatures_english.txt',
         help='input file listing all the words')
     parser.add_argument('-d', '--directory',
         default='resources',
-        help='directory where to look for the input files')
+        help='directory where to look for the input files\ndefault: resources/')
     parser.add_argument('-s', '--separator',
         help='ignore everything on the left of this character or string in the words file. useful if the words file contains definitions.')
     parser.add_argument('-o', '--outfile',
@@ -57,7 +57,7 @@ def parse_args():
         help='output file to write the results to')
     parser.add_argument('--output-dir',
         default='results',
-        help='directory where to write for the output files')
+        help='directory where to write for the output files\ndefault: results/')
     args = parser.parse_args()
     args.lettervalues = path.join(args.directory, args.lettervalues)
     args.words = path.join(args.directory, args.words)
