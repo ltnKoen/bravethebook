@@ -1,3 +1,18 @@
+orc
+genie
+slime
+treant
+worg
+spider
+mimic
+kobold
+griffon
+beholder
+drake
+lich
+dragon drake
+lich skeleton
+skeleton
 ogre
 elf
 imp

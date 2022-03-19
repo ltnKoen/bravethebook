@@ -1,15 +1,20 @@
 5
+orc
 ogre
 
 6
+genie
+treant
 elf
 sirens
 ladon
 
 7
+slime
 imp
 
 8
+worg
 sprite
 satyr
 demon
@@ -21,6 +26,8 @@ bogle
 gorgon
 
 9
+spider
+lich
 shade
 alicorn
 centaur
@@ -30,16 +37,19 @@ mutants
 goblin
 
 10
+drake
 orthros
 minotaur
 ghosts
 pegasus
 
 11
+mimic
 fairy
 scylla
 
 12
+skeleton
 wraith
 banshee
 hydra
@@ -49,6 +59,7 @@ nemean lion
 wendigo
 
 13
+kobold
 echidna
 manticore
 mermaids
@@ -58,6 +69,8 @@ brownies
 bigfoot
 
 14
+griffon
+beholder
 pixie
 chimera
 vampire
@@ -79,6 +92,7 @@ werewolf
 hobgoblin
 
 18
+dragon drake
 sphinx
 leprechauns
 thunderbird
@@ -95,6 +109,7 @@ cockatrice
 charybdis
 
 21
+lich skeleton
 bray road beast
 
 22
