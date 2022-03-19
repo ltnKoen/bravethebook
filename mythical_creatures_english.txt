@@ -1,0 +1,72 @@
+ogre
+elf
+imp
+sirens
+sprite
+satyr
+shade
+demon
+alicorn
+centaur
+sea-goat
+gnome
+dragon
+golem
+orthros
+pixie
+fairy
+unicorn
+bogle
+medusa
+chimera
+wraith
+banshee
+echidna
+hydra
+gorgon
+manticore
+minotaur
+cerberus
+mutants
+dwarf
+nemean lion
+scylla
+ghosts
+goblin
+mermaids
+pegasus
+vampire
+grim reaper
+mothman
+sea monsters
+sylph
+brownies
+typhon
+wendigo
+zombie
+nymph
+phoenix
+griffin
+sphinx
+bigfoot
+cockatrice
+basilisk
+cyclops
+werewolf
+leprechauns
+bogeyman
+sasquatch
+valkyries
+charybdis
+thunderbird
+black dog
+hobgoblin
+bray road beast
+doppelganger
+ladon
+shapeshifters
+loch ness monster
+cynocephalus
+will-o'-the-wisp
+new jersey devil
+black eyed beings
