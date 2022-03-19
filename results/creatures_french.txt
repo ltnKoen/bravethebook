@@ -1,0 +1,413 @@
+2
+orc
+tac
+
+3
+al
+aziza
+nixe
+oni
+
+4
+nain
+nian
+
+5
+addanc
+aerico
+agni
+agta
+ange
+eale
+naga
+nandi
+nisse
+ogre
+qilin
+
+6
+acheri
+adlet
+ananta
+cocatrice
+geant
+genie
+ladon
+naiade
+nessie
+nue
+ondine
+orochi
+sirene
+triton
+zmei
+
+7
+yeti
+carcolh
+div
+dragon
+hoko
+isonade
+ki-rin
+licorne
+meis
+moin
+nanuq
+rokh
+silene
+troll
+worg
+yeti
+
+8
+acoura
+asura
+alicanto
+aspic
+dahu
+demon
+erawan
+garache
+homa
+ki-lin
+mahr
+manes
+mang
+marte
+matre
+moroi
+pari
+pixie
+strigoi
+trauco
+
+9
+chien noir
+daugr
+dryade
+gnome
+gorgone
+hydre
+kami
+lamie
+lilith
+lutin
+madera
+meiga
+satyre
+selkie
+simiot
+tengu
+
+10
+nepal
+amazones
+ankou
+menades
+centaure
+chimere
+fee
+garuda
+golem
+goule
+kachinas
+knocker
+kraken
+lorialet
+lucrote
+margot
+mimi
+nidhogg
+phenix
+ratatosk
+scylla
+sphinx
+sphinx
+stryge
+tarasque
+waagal
+wendigo
+windigo
+wodianoi
+yokai
+
+11
+alastyn
+amarok
+egipan
+harpie
+huldre
+korrigan
+macachera
+makara
+manticore
+meliade
+merrow
+mngwa
+namazu
+nanuuq
+pegase
+phoenix
+pooka
+korrigan
+rakshasa
+sasquatch
+sciapode
+vetala
+wivre
+
+12
+migou
+aitvaras
+kaptar
+amikiri
+caladrius
+capricorne
+champ
+changelins
+chat d'argent
+deildegast
+duergars
+efrit
+elfe
+gremlin
+karakasa
+kitsune
+meduse
+mogwai
+ours nandi
+puck
+puck
+rhinograde
+wagyl
+
+13
+agloolik
+cerbere
+criosphinx
+cyclope
+djin
+each uisge
+fenrir
+kelpie
+laminak
+lemure
+onocentaure
+picolaton
+pincoya
+rusalka
+skvader
+sleipnir
+
+14
+almasty
+basilic
+becut
+bolla
+bonnacon
+chipique
+djina
+djinn
+dragon chinois
+guivre
+hai ho shang
+ijiraq
+lindworm
+monaciello
+peryton
+peuchen
+salamandre
+tatari gami
+tortue noire
+typhon
+
+15
+ajatar
+arragousset
+bannik
+banshee
+bouraq
+faune
+furie
+gamaioun
+incube
+inugamai
+kappa
+leviathan
+lion de nemee
+melusine
+minotaure
+mourioche
+ver intestin
+oupyr
+simurgh
+sylphe
+wyvern
+zombie
+
+16
+arimaspes
+arkan sonney
+bacchantes
+baku
+brownie
+boggart
+cauque-mar
+chipekwe
+dhampire
+gobelin
+guerrier noir
+kobold
+maja
+yuki-onna
+
+17
+ame en peine
+anguipede
+barghest
+fantome
+fir darrig
+gargouille
+graoully
+hieracosphinx
+hrosshveli
+lammasu
+mermecolion
+nephilim
+nymphe
+oiseau-tonnerre
+raiju
+toupidek
+
+18
+ahkiyyini
+charybde
+hamadryades
+herensugue
+memphre
+myrmidons
+orang pendek
+succube
+tatzelwurm
+ver a pattes
+valkyrie
+vampire
+vouivre
+vouivre
+
+19
+buggane
+ebu gogo
+jiangshi
+leprechaune
+marie morgane
+masgugue
+nuckelavee
+petite souris
+serpent de mer
+serpent arc-en-ciel
+
+20
+behemoth
+emela-ntouka
+fafnir
+voirloup
+wolpertinger
+yamata-no-orochi
+
+21
+bergleute
+boobrie
+catoblepas
+el cuelebre
+jatayu
+joint snake
+loup-garou
+matergabia
+olgoi-khorkhoi
+serpent-vision
+stollenwurm
+
+22
+bigfoot
+bisclaveret
+bonnet-rouge
+bucentaure
+bukavac
+dame blanche
+dragon europeen
+farfadet
+faucheuse
+feng-huang
+griffon
+mum poher
+umi-bozu
+
+23
+biche de cerynie
+bunyip
+cavales de diomede
+chupacabra
+doppelganger
+homme-bete
+poisson-eveque
+yama-uba
+
+24
+haggis sauvage
+jackalope
+lapin de paques
+monstre du loch ness
+poulpiquet
+
+25
+amphisbene
+berbalang
+bete des vosges
+esprit hurleur
+saumon de la sagesse
+
+26
+bete du vaccares
+jormungand
+truffandec
+
+27
+akurojin-no-hi
+pique-au-mollet
+sanglier d'erymanthe
+ver de lambton
+
+28
+brun de cuailnge
+feu follet
+maymaygwashi
+
+29
+bete faramine
+jack talons-a-ressort
+klabautermann
+serpent a plumes
+
+30
+homme-papillon
+meister hammerlinge
+
+32
+bete du gevaudan
+
+35
+hippogriffe
+storsjoodjuret
+
+38
+mokele-mbembe
+oiseaux du lac stymphale
+
+40
+bonhomme sept-heures
+
+50
+abominable homme des neiges
+
