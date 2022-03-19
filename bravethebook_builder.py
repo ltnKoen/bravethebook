@@ -43,7 +43,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Score words from a list to help design a thematic variant for "Brave the Book", the bookmark game.')
     parser.add_argument('-v', '--lettervalues',
         default='lettervalues_english.txt',
-        help='input file listing one letter and one lettervalue per line')
+        help='input file listing one letter and one integer lettervalue per line; frequent letters such as \'e\' should have low value')
     parser.add_argument('-w', '--words',
         default='creatures_english.txt',
         help='input file listing all the words')
@@ -53,7 +53,7 @@ def parse_args():
     parser.add_argument('-s', '--separator',
         help='ignore everything on the left of this character or string in the words file. useful if the words file contains definitions.')
     parser.add_argument('-o', '--outfile',
-        default='creatures_english.txt',
+        required=True,
         help='output file to write the results to')
     parser.add_argument('--output-dir',
         default='results',
