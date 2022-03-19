@@ -17,7 +17,7 @@ Use `" - "` as a separator to ignore definitions: anything following `" - "` on 
 
 ## Usage
     usage: bravethebook_builder.py [-h] [-v LETTERVALUES] [-w WORDS] [-d DIRECTORY]
-                                   [-s SEPARATOR] -o OUTFILE
+                                   [-s SEPARATOR] [--separator-whitespace] -o OUTFILE
                                    [--output-dir OUTPUT_DIR]
 
     Score words from a list to help design a thematic variant for "Brave the Book",
@@ -28,18 +28,24 @@ Use `" - "` as a separator to ignore definitions: anything following `" - "` on 
       -v LETTERVALUES, --lettervalues LETTERVALUES
                             input file listing one letter and one integer lettervalue
                             per line; frequent letters such as 'e' should have low
-                            value
+                            value (default: scrabble_english.txt)
       -w WORDS, --words WORDS
-                            input file listing all the words
+                            input file listing all the words (default:
+                            creatures_english.txt)
       -d DIRECTORY, --directory DIRECTORY
-                            directory where to look for the input files
-                            default: resources/
-       -s SEPARATOR, --separator SEPARATOR
-                            ignore everything on the left of this character or string
-                            in the words file. useful if the words file contains
-                            definitions.
+                            directory where to look for the input files (default:
+                            resources)
+      -s SEPARATOR, --separator SEPARATOR
+                            if this option is specified, ignore everything on the
+                            left of this character or string in the words file.
+                            useful if the words file contains definitions. (default:
+                            None)
+      --separator-whitespace, --first-word-only
+                            if this option is specified, ignore everything in the
+                            words file except the first word of each line (default:
+                            False)
       -o OUTFILE, --outfile OUTFILE
-                            output file to write the results to
+                            output file to write the results to (default: None)
       --output-dir OUTPUT_DIR
-                            directory where to write for the output files
-                            default: resources/
+                            directory where to write for the output files (default:
+                            results)

@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 
-def read_words(filename, separator=None):
+def read_words(filename, separator=None, split_on_whitespace=False):
+    if split_on_whitespace:
+        extract_word = lambda line: line.split(maxsplit=1)[0].strip().lower()
+    elif separator:
+        extract_word = lambda line: line.split(separator, maxsplit=1)[0].strip().lower()
+    else:
+        extract_word = lambda line: line.strip().lower()
     with open(filename, 'r') as f:
         return [
-            line.split(separator, maxsplit=1)[0].strip().lower()
+            extract_word(line)
             for line in f if len(line) > 2
         ]
 
@@ -40,7 +46,10 @@ import argparse
 from os import path
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Score words from a list to help design a thematic variant for "Brave the Book", the bookmark game.')
+    parser = argparse.ArgumentParser(
+        description='Score words from a list to help design a thematic variant for "Brave the Book", the bookmark game.',
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter
+    )
     parser.add_argument('-v', '--lettervalues',
         default='scrabble_english.txt',
         help='input file listing one letter and one integer lettervalue per line; frequent letters such as \'e\' should have low value')
@@ -49,15 +58,18 @@ def parse_args():
         help='input file listing all the words')
     parser.add_argument('-d', '--directory',
         default='resources',
-        help='directory where to look for the input files\ndefault: resources/')
+        help='directory where to look for the input files')
     parser.add_argument('-s', '--separator',
-        help='ignore everything on the left of this character or string in the words file. useful if the words file contains definitions.')
+        help='if this option is specified, ignore everything on the left of this character or string in the words file. useful if the words file contains definitions.')
+    parser.add_argument('--separator-whitespace', '--first-word-only',
+        action='store_true',
+        help='if this option is specified, ignore everything in the words file except the first word of each line')
     parser.add_argument('-o', '--outfile',
         required=True,
         help='output file to write the results to')
     parser.add_argument('--output-dir',
         default='results',
-        help='directory where to write for the output files\ndefault: results/')
+        help='directory where to write for the output files')
     args = parser.parse_args()
     args.lettervalues = path.join(args.directory, args.lettervalues)
     args.words = path.join(args.directory, args.words)
@@ -68,14 +80,14 @@ def parse_args():
 
 def main():
     arguments = parse_args()
-    separator = arguments.separator
+    separator, split_on_whitespace = arguments.separator, arguments.separator_whitespace
     wordsfile = arguments.words
     lettersfile = arguments.lettervalues
     groupsfile = arguments.outfile
     print('OPENING FILE:')
     print(wordsfile)
     print()
-    words = read_words(wordsfile, separator=separator)
+    words = read_words(wordsfile, separator=separator, split_on_whitespace=split_on_whitespace)
     print('READ WORDS:')
     print(words)
     print()

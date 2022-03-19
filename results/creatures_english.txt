@@ -1,6 +1,3 @@
-3
-sea
-
 5
 ogre
 
@@ -8,11 +5,9 @@ ogre
 elf
 sirens
 ladon
-new
 
 7
 imp
-grim
 
 8
 sprite
@@ -24,7 +19,6 @@ dragon
 golem
 bogle
 gorgon
-nemean
 
 9
 shade
@@ -34,8 +28,6 @@ unicorn
 medusa
 mutants
 goblin
-bray
-loch
 
 10
 orthros
@@ -53,17 +45,17 @@ banshee
 hydra
 cerberus
 dwarf
+nemean lion
 wendigo
 
 13
 echidna
 manticore
 mermaids
+sea monsters
 sylph
 brownies
 bigfoot
-black
-black
 
 14
 pixie
@@ -75,6 +67,7 @@ griffin
 basilisk
 
 15
+grim reaper
 nymph
 
 16
@@ -89,6 +82,7 @@ hobgoblin
 sphinx
 leprechauns
 thunderbird
+black dog
 
 19
 zombie
@@ -100,6 +94,12 @@ doppelganger
 cockatrice
 charybdis
 
+21
+bray road beast
+
+22
+loch ness monster
+
 23
 sasquatch
 will-o'-the-wisp
@@ -107,4 +107,10 @@ will-o'-the-wisp
 24
 shapeshifters
 cynocephalus
+
+30
+black eyed beings
+
+31
+new jersey devil
 
