@@ -2,7 +2,7 @@
 
 import urllib.request
 from bs4 import BeautifulSoup
-import unidecode
+from unidecode import unidecode
 from itertools import chain
 
 def read_titles_on_page(url):
@@ -30,8 +30,8 @@ def read_all_titles(first_url, next_url):
 def clean_names(titles):
     names = [name.rsplit('/', maxsplit=1)[-1].lower() for name in titles]
     names = [name.split('(', maxsplit=1)[0].strip() for name in names]
-    names = list(map(unidecode, names))
-    names = list(set(names + [name for sentence in names for name in sentence.split()]))
+    names = list(set(map(unidecode, names)))
+    #names = list(set(names + [name for sentence in names for name in sentence.split()]))
     return names
 
 def write_words(filename, words):
